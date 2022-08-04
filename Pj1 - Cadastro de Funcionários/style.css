@@ -38,7 +38,7 @@ button {
 .header h1 {
   font-weight: 900;
   font-size: 20px;
-  word-break: break-all;
+  word-break: break-all;      
 }
 
 #new {
@@ -57,7 +57,7 @@ button {
   overflow:auto;
 }
 
-.divTable::-webkit-scrollbar {
+.divTable::-webkit-scrollbar {      
   width: 12px;
   background-color: whitesmoke; 
 }
@@ -71,21 +71,15 @@ table {
   width: 100%;
   border-spacing: 10px;
   word-break: break-all;
-  border-collapse: collapse;
+  border-collapse: collapse;      
+}
+
+tr {
+  border-bottom: 1px solid rgb(238, 235, 235)!important;      
 }
 
 thead {
   background-color: whitesmoke;
-}
-
-tr {
-  border-bottom: 1px solid rgb(238, 235, 235)!important;
-}
-
-tbody tr td {
-  vertical-align: text-top;
-  padding: 6px;
-  max-width: 50px;
 }
 
 thead tr th {
@@ -94,52 +88,23 @@ thead tr th {
   margin-bottom: 50px;
 }
 
-tbody tr {
-  margin-bottom: 50px;
-}
-
 thead tr th.acao {
   width: 100px!important;
   text-align: center;
 }
 
-tbody tr td.acao {
-  text-align: center;
+tbody tr td {
+  vertical-align: text-top;
+  padding: 6px;
+  max-width: 50px;
 }
 
-@media (max-width: 700px) {
-  body {
-    font-size: 10px;
-  }
-  
-  .header h1 {
-    font-size: 15px;
-  }
+tbody tr {
+  margin-bottom: 50px;
+}
 
-  #new {
-    padding: 5px;
-    font-size: 10px;
-  }
-
-  thead tr th.acao {
-    width: auto!important;
-  }
-  
-  td button i {
-    font-size: 20px!important;
-  }
-
-  td button i:first-child {
-    margin-right: 0;
-  }
-
-  .modal {
-    width: 90%!important;
-  }
-
-  .modal label {
-    font-size: 12px!important;
-  }
+tbody tr td.acao {
+  text-align: center;
 }
 
 .modal-container {
@@ -201,7 +166,7 @@ tbody tr td.acao {
   animation: modal .4s;
 }
 
-@keyframes modal {
+@keyframes modal {    
   from {
     opacity: 0;
     transform: translate3d(0, -60px, 0);
@@ -224,4 +189,39 @@ td button i {
 
 td button i:first-child {
   margin-right: 10px;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 10px;
+  }
+  
+  .header h1 {
+    font-size: 15px;
+  }
+
+  #new {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  thead tr th.acao {
+    width: auto!important;
+  }
+  
+  td button i {
+    font-size: 20px!important;
+  }
+
+  td button i:first-child {
+    margin-right: 0;
+  }
+
+  .modal {
+    width: 90%!important;
+  }
+
+  .modal label {
+    font-size: 12px!important;
+  }
 }
