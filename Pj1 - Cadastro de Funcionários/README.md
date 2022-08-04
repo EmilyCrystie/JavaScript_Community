@@ -13,12 +13,24 @@
   <ol>
    <li> Funções </li>
    <li> Condicionais </li>
-    <li> DOM </li>
-    <li> JSON</li>
-    <li> CRUD  </li>
+   <li> DOM: alteração automática do HTML com JS </li>
+   <li> JSON:</li>
+   <li> CRUD: create, read, update, delete </li>
   </ol>
 <br>
- 
+<h3> CSS 
+  <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" width="15" height="15"/>
+</h3>
+  <ol>
+   <li> <code>work-break</code>: tipos de quebra de texto ao tocar final da linha </li>
+   <li> <code>-webkit</code>: mecanismo de renderização css para Chrome e Safari </li>
+   <li> <code>border-collapse</code>: bordas juntas umas nas outras </li>
+   <li> <code>!important</code>: maior especificade possível </li>
+   <li> <code>vertical-align</code>: semelhante ao align-items, mas para texto </li>
+   <li> <code>@keyframes</code>: regras de animação com css </li>
+  </ol>
+<br>
+
 <h2> 💡 Design </h2>
 <a href="https://www.youtube.com/watch?v=JxtQJ8P0ekE&t=171s" target="_blank"> Origem da Ideia </a>
 <br>
