@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(249,112,59);
+    background: linear-gradient(90deg, rgba(249,112,59,1) 0%, rgba(248,83,19,1) 100%)
+}
+
+h1{
+    margin-bottom: 40px;
+    font-size: 25px;
+    color: #fff;
+}
+
+#box{
+    width: 700px;
+    padding: 30px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 9px -11px 12px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px -11px 12px -2px rgba(0,0,0,0.75);
+    box-shadow: 9px -11px 12px -2px rgba(0,0,0,0.75);
+}
+
+#input{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;         /*necessário para o before, quando retornar o signitficado da palavra*/
+}
+
+/* campo da palavra e significado */
+#input::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: 2px solid #6666;
+    margin-top: 70px;
+
+    /* curvar a linha */
+    height: 10px;
+    border-radius: 30px;
+}
+
+#input_txt{
+    outline: none;
+    border: 1px solid black;
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#btn{
+    width: 20%;
+    outline: none;
+    border: solid 1px black;
+    background-color: #f85313;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: #fff;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3 ease-in;
+}
+
+#btn:hover{
+    background-color: #f17240;
+}
+
+#result h3{
+    color: #f85313;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+#significado{
+    color: black;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#significado span{
+    font-size: 20px;
+    color: #f85313;
+}
