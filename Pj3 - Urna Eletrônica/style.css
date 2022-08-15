@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urna{
+    background-color: #dbd5c9;
+    padding: 30px;
+    display: flex;
+}
+
+.tela{
+    width: 500px;
+    height: 320px;
+    background: linear-gradient(to right, #e8e8e8, #c1c1c1);
+    border: 2px solid #999;
+    display: flex;
+    flex-direction: column;
+}
+
+.teclado{
+    background-color: #403a3a;
+    margin-left: 30px;
+}
+
+.teclado-linha{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.teclado-botao{
+    width: 70px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px #555;
+}
+
+.btn-branco{
+    background-color: #fff;
+}
+
+.btn-corrige{
+    background-color: #f09046;
+}
+
+.btn-confirma{
+    background-color: #48c079;
+    width: 90px;
+    height: 50px;
+}
+
+.btn-branco,
+.btn-corrige,
+.btn-confirma{
+    color: #000;
+    font-size: 12px;
+}
+
+.divisao1{
+    flex: 1;            /*ocupa espaço disponível*/
+    display: flex;
+}
+
+.d1-left{
+    flex: 1;
+}
+
+.d1-right{
+    width: 90px;
+}
+
+.divisao2{
+    height: 50px;
+    font-size: 14px;
+    border-top: 2px solid #000;
+    padding-left: 10px;
+}
+
+.divisao2 p{
+    margin: 0;
+}
