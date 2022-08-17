@@ -1,8 +1,15 @@
+@keyframes pisca{
+    0% { opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { opacity: 0.2; }
+}
+
 body{
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .urna{
@@ -73,10 +80,16 @@ body{
 
 .d1-left{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
 }
 
 .d1-right{
     width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .divisao2{
@@ -89,3 +102,61 @@ body{
 .divisao2 p{
     margin: 0;
 }
+
+.candidato{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.cargoCandidato{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numeroCandidato{
+    height: 50px;
+}
+
+.digito{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.pisca{
+    animation-name: pisca;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.candidatoSelecionado{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.candidatoSelecionado.small{
+    width: 80%;
+    height: 40%;
+    font-size: 12px;
+}
+
+.candidatoSelecionado img{
+    width: 100%;
+    height: 85%;
+}
+
+.infosCandidato{
+    flex: 1;
+    line-height: 30px;
+} 
