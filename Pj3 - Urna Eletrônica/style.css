@@ -120,7 +120,7 @@ body{
     height: 50px;
 }
 
-.digito{
+.numero{
     display: inline-block;
     width: 30px;
     height: 40px;
@@ -136,7 +136,7 @@ body{
     animation-iteration-count: infinite;
 }
 
-.candidatoSelecionado{
+.lateral{
     width: 100%;
     height: 50%;
     border: 1px solid black;
@@ -145,13 +145,13 @@ body{
     font-size: 14px;
 }
 
-.candidatoSelecionado.small{
+.lateral.small{
     width: 80%;
     height: 40%;
     font-size: 12px;
 }
 
-.candidatoSelecionado img{
+.lateral img{
     width: 100%;
     height: 85%;
 }

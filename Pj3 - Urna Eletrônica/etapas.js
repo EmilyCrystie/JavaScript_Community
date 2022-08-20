@@ -4,19 +4,19 @@ let etapas = [
         numeros: 5,
         candidatos: [
             {
-                numero: 38111,
-                nome: 'Fulano de Tal',
-                partido: 'ABC',
+                numero: '38111',
+                nome: 'Bob Esponja',
+                partido: 'Fenda do Biquini',
                 fotos: [
                     {url: '38111.jpg', legenda: 'Vereador'}
                 ]
             },
             {
-                numero: 77222,
-                nome: 'Beltrano da Silva',
-                partido: 'DEFG',
+                numero: '77222',
+                nome: 'Lula Molusco',
+                partido: 'Fundo Do Mar',
                 fotos: [
-                    {url: '77222.jpg', legenda: 'Vereador'}
+                    {url: '77222.png', legenda: 'Vereador'}
                 ]
             }
         ]
@@ -26,7 +26,7 @@ let etapas = [
         numeros: 2,
         candidatos: [
             {
-                numero: 99,
+                numero: '99',
                 nome: 'Ciclano',
                 partido: 'ABC',
                 vice: 'Cic',
@@ -36,7 +36,7 @@ let etapas = [
                 ]
             },
             {
-                numero: 84,
+                numero: '84',
                 nome: 'Zulano',
                 partido: 'QWERTY',
                 vice: 'Zul',
