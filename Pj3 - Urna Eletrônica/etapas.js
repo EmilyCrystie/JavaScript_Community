@@ -8,7 +8,7 @@ let etapas = [
                 nome: 'Bob Esponja',
                 partido: 'Fenda do Biquini',
                 fotos: [
-                    {url: '38111.jpg', legenda: 'Vereador'}
+                    {url: '38111.png', legenda: 'Vereador'}
                 ]
             },
             {
@@ -27,22 +27,22 @@ let etapas = [
         candidatos: [
             {
                 numero: '99',
-                nome: 'Ciclano',
-                partido: 'ABC',
-                vice: 'Cic',
+                nome: 'Seu Sirigueijo',
+                partido: 'Siri Cascudo',
+                vice: 'Sandy',
                 fotos: [
                     {url: '99.jpg', legenda: 'Prefeito'},
-                    {url: '99_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url: '99.png', legenda: 'Vice-Prefeito', small: true}
                 ]
             },
             {
                 numero: '84',
-                nome: 'Zulano',
-                partido: 'QWERTY',
-                vice: 'Zul',
+                nome: 'Plankton',
+                partido: 'Fundo Do Mar',
+                vice: 'Karen',
                 fotos: [
                     {url: '84.jpg', legenda: 'Prefeito'},
-                    {url: '84_2.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url: '84(2).png', legenda: 'Vice-Prefeito', small: true}
                 ]
             }
         ]

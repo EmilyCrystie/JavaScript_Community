@@ -85,24 +85,6 @@ body{
     padding-left: 20px;
 }
 
-.d1-right{
-    width: 90px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.divisao2{
-    height: 50px;
-    font-size: 14px;
-    border-top: 2px solid #000;
-    padding-left: 10px;
-}
-
-.divisao2 p{
-    margin: 0;
-}
-
 .candidato{
     height: 50px;
     display: flex;
@@ -136,6 +118,18 @@ body{
     animation-iteration-count: infinite;
 }
 
+.infosCandidato{
+    flex: 1;
+    line-height: 30px;
+} 
+
+.d1-right{
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .lateral{
     width: 100%;
     height: 50%;
@@ -156,7 +150,27 @@ body{
     height: 85%;
 }
 
-.infosCandidato{
+.divisao2{
+    height: 50px;
+    font-size: 14px;
+    border-top: 2px solid #000;
+    padding-left: 10px;
+}
+
+.divisao2 p{
+    margin: 0;
+}
+
+.aviso-grande{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.aviso-gigante{
+    font-size: 70px;
+    font-weight: bold;
     flex: 1;
-    line-height: 30px;
-} 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
