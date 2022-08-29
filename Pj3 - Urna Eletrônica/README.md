@@ -28,12 +28,12 @@
  
 <h2><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript" width="20" height="20"/> Coisas que aprendi em JavaScript </h2>
   <ol>
-   <li> Consumo de API: "<a href="https://github.com/ThiagoNelsi/dicio-api" target="_blank"> Dicio API </a> permite buscas por diversas informações a respeito de milhares de palavras da língua portuguesa, todos os dados são extraídos do Dicio" </li>
-   <li> Condicionais: <code>if</code> - se ... tal coisa, fazer isso, caso contrário, fazer aquilo </li>
-   <li> Requisições <code>fetch()</code>: manipulação de urls, devolve uma promessa de retorno, em caso de sucesso é possível trabalhar a situação com .then(), basicamente uma "condicional" </li>
-   <li> <code>.catch()</code>: em casos de não sucesso, trabalhasse o erro </li>
-   <li> DOM: manipulação dinâmica de HTML pelo JavaScript (<code>document.querySelector(), innerHTML, addEventListener</code>) </li>
-   <li> Funções Anônimas: função sem nome, geralmente usada como parâmetro de outras funções </li>
+   <li>  </li>
+   <li>  </li>
+   <li>  </li>
+   <li>  </li>
+   <li>  </li>
+   <li>  </li>
   </ol>
 <br>
 
