@@ -32,9 +32,9 @@
    <li> Arrays: lista de etapas de voto (para Vereador, depois Prefeito) / Lista dos candidatos </li>
    <li> Objetos: informações de cada etapa (nome da etapa, quantidade de dígitos possíveis, candidato / informações de cada candidato (nº, nome do candidato, partido, foto)</li>
    <li> Manipulação de DOM: alteração das informações da tela conforme cada etapa ou seleção de candidato </li>
-   <li> Funções e Condicionais <code>if</code> e <code>for</code>: para controle do comportamento do layout e botões </li>
-   <li> Método: <code>filter()</code> </li>
-   <li> Método: <code>nextElementSibling</code> </li>
+   <li> Funções, Repetições e Condicionais <code>if</code> e <code>for</code>: para controle do comportamento do layout e botões </li>
+   <li> Método <code>filter()</code>: busca de número dentro da array do candidato </li>
+   <li> Propriedade <code>nextElementSibling</code>: retorna o próximo elemento, no caso, usado para piscar cada campo a ser do nº do candidato </li>
   </ol>
 <br>
 
