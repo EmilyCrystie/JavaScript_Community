@@ -11,28 +11,19 @@
 
 <h2>⚙️ Funcionamento</h2>
   <ul>
-   <li> </li>
-      <ul>
-        <li> </li>
-        <li> </li>
-      </ul>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
+   <li> Mover indicador horizontalmente conforme tamanho desejado da senha </li>
+   <li> Clicar em "Gerar Sneha" </li>
+   <li> Copiar senha: Passar o mouse sobre o campo da senha gerada e clicar </li>
+   <li> Nova senha: alterar tamanho ou apenas clicar novamente em "Gerar senha" </li>
   </ul>
 <br>
  
 <h2><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript" width="20" height="20"/> Coisas que aprendi em JavaScript </h2>
   <ol>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
+   <li> <code>.oninput</code>: evento que ocorre quando elemento recebe valor do usuário, ou seja, descrição do tamanho da senha altera conforme movimentação do indicador pelo usuário </li>
+   <li> <code>Math.random()</code>: retorna um nº aleatório, usado nos critério da senha </li>
+   <li> <code>Math.floor()</code>: retorna um nº inteiro,  usado nos critério da senha </li>
+   <li> <code>navigator.clipboard,writeText()</code>: acesso à área de transferência pelo navegador, permitindo gravar texto nesta área </li>
   </ol>
 <br>
 
