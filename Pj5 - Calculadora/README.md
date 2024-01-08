@@ -1,5 +1,5 @@
 <div align="center">
- <h1 align="center"> Dicionário pt-br </h1>
+ <h1 align="center"> Calculadora </h1>
  <p>  </p>
  <br>
  <p> ➡️ Acesse o projeto por <a href="https://crystie-pj5calculadora.netlify.app/" target="_blank"> aqui </a>⬅️</p>
