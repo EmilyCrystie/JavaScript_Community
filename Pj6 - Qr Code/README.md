@@ -1,29 +1,26 @@
 <div align="center">
  <h1> Qr Code </h1>
- <p> Acesso de link via Qr Code </p>
+ <p> Acesso de links via Qr Code </p>
  <br>
  <p> ➡️ Acesse o projeto por <a href="https://crystie-pj6qrcode.netlify.app" target="_blank"> aqui </a>⬅️</p>
 
-
+![image](https://github.com/EmilyCrystie/JavaScript_Community/assets/81563039/39e0c255-f404-4e46-83b1-76b128a3b942)
+![image](https://github.com/EmilyCrystie/JavaScript_Community/assets/81563039/9fc96758-7439-4a8e-bf28-30cfd932e496)
 
 </div>
 <br>
  
-<h2> 💻 Tecnologias usadas e Coisas que aprendi... </h2>
-<h3> CSS 
-  <!-- <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" width="15" height="15"/> -->
-</h3>
-<ol>
-    <!-- <li><code>positions</code>: posicionar elementos conforme elementos ancestrais</li>
-    <li> Pseudo-classes <code>::before</code> e <code>::after</code>: seletores que permitem adicionar conteúdo antes ou depois de um elemento e não modificam o html</li>
-    <li><code>transform: skewX()</code>: aplica uma inclinação ao elemento, conforme os graus informado</li>
-    <li><code>transform:translate()</code>: move um elemento pelos eixo x/y</li>
-    <li> <code>filter: drop-shadow(offset-x offset-y blur-radius color)</code>: adicona sombra ao elemento</li> -->
-</ol>
+<h2><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript" width="20" height="20"/> Coisas que aprendi em JavaScript </h2>
+  <ol>
+   <li> arrow functions: funções como argumento de outra função </li>
+   <li> template literals: criação de strings dinâmicas, junção de strings e variáveis </li>
+   <li> acessar atributos de forma direta, sem usar <code>setAttribute('attribute', 'novo_valor')</code></li>
+  </ol>
 <br>
  
 <h2> 💡 Design </h2>
 <a href="https://www.youtube.com/watch?v=3YcwdyCa1GY&list=PLIQNE5T0N25oOmHWX37ktD1dpXOU6TLOV&index=18" target="_blank"> Origem da Ideia </a>
+<br>
 <br>
 
 <h2> 👩‍💻 Autora </h2>
