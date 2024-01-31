@@ -2,7 +2,7 @@
  <h1> Qr Code </h1>
  <p> Acesso de link via Qr Code </p>
  <br>
- <p> ➡️ Acesse o projeto por <a href="https://crystie-qrcode.netlify.app" target="_blank"> aqui </a>⬅️</p>
+ <p> ➡️ Acesse o projeto por <a href="https://crystie-pj6qrcode.netlify.app" target="_blank"> aqui </a>⬅️</p>
 
 
 
